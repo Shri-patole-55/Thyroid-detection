@@ -11,7 +11,7 @@ import streamlit as st
 import pandas as pd
 
 #loading the saved model
-loaded_model=pickle.load(open('C:/Users/hp/thyroid detection/trained_thyroid_model.sav','rb'))
+loaded_model=pickle.load(open('trained_thyroid_model.sav','rb'))
 
 #creating a function for prediction
 
